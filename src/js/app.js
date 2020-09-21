@@ -1,2 +1,4 @@
-// eslint-disable-next-line no-console
-console.log('it works!');
+import ImageManager from './ImageManager';
+
+const manager = new ImageManager(document);
+manager.init();
